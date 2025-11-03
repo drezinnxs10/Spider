@@ -12,3 +12,6 @@ Este projeto consiste na criação de um **site One Page** sobre o **Homem-Aranh
 
 ## Autor
 André Luiz
+
+## Acesso ao site
+![](./img/qrcode.png)
