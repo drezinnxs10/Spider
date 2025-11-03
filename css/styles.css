@@ -136,11 +136,11 @@ nav ul li a {
     }
     /*cabeçalho*/
     header {
-        height: 150px;
+        height: 110px;
     }
     #logo img {
-        height: 210px;
-        width: 210px;
+        height: 130px;
+        width: 130px;
         margin-top: 45px;
     }
     label {
