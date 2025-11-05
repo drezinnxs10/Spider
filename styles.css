@@ -25,6 +25,8 @@ body {
     margin: 0 auto;
 }
 
+
+
 .btn {
     text-decoration: none;
     font-size: 1.3rem;
@@ -52,7 +54,8 @@ main {
     background: url(./img/banner.jpg);
     background-size: cover;
     background-position: center;
-    
+    text-align: center;
+
 }
 
 main .container {
@@ -60,6 +63,7 @@ main .container {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    font-size: 30px;
 
 
 }
@@ -68,7 +72,8 @@ main h1 {
     color: var(--Branco);
     font-family: "Roboto Slab";
     text-shadow: 5px 10px 15px var(--preto), 0px 10px 10px rgba(0, 0, 0, 0.15), 0px 20px 20px rgba(0, 0, 0, 0.1), 0px 25px 25px rgba(0, 0, 0, 0.1);
-    font-size: 1rem;
+    font-size: 2.8rem;
+
 
 
 }
@@ -76,11 +81,11 @@ main h1 {
 main h2 {
     color: var(--Branco);
     font-family: "Roboto Slab";
-    font-family: 0.85rem;
-    font-weight: 700;
+    font-weight: 500;
     text-shadow: 0px 5px 10px var(--preto), 0px 10px 10px rgba(0, 0, 0, 0.15), 0px 15px 15px rgba(0, 0, 0, 0.1), 0px 20px 20px rgba(0, 0, 0, 0.1);
-    margin-bottom: 30px;
-    font-size: 10px;
+    font-size: 1.6rem;
+    
+
 
 
 }
@@ -88,7 +93,7 @@ main h2 {
 #logo img {
     width: 55px;
     height: 55px;
-    margin-top: 20px;
+    margin-top: 40px;
     margin-left: 10px;
 }
 
@@ -150,13 +155,14 @@ nav ul li a {
         width: 40%;
         height: -40%;
     }
-    
-}
 
-/* principal*/
 
-main {
-    height: 75vh;
+
+    /* principal*/
+
+    main {
+        height: 75vh;
+    }
 }
 
 /* Fim - Smartphone Landscape <<<<<<<<<<<<<<<<<< */
@@ -168,17 +174,17 @@ main {
     .container {
         max-width: 720px;
     }
+
+
+    main h1 {
+        font-size: 3.7rem;
+    }
+
+    main h2 {
+        font-size: 3.7rem;
+    }
+
 }
-
-main h1 {
-    font-size: 3.7rem;
-}
-
-main h2 {
-    font-size: 3.7rem;
-}
-
-
 
 /* Tablet Portrait <<<<<<<<<<<<<<<<<< */
 
@@ -241,7 +247,7 @@ main h2 {
     }
 
     /*princpal*/
-    
+
     main {
         height: 80vh;
     }
@@ -257,12 +263,13 @@ main h2 {
     .container {
         max-width: 1320px;
     }
-}
 
-main h1 {
-    font-size: 6rem;
-    font-size: 4rem;
 
+    main h1 {
+        font-size: 6rem;
+        font-size: 4rem;
+
+    }
 }
 
 /* Full HD/4K <<<<<<<<<<<<<<<<<< */
