@@ -30,13 +30,42 @@ body {
     text-decoration: none;
     font-size: 1.3rem;
     font-weight: 600;
-    background-color: var(--Azul);
+    background-color: #0c131f;
     padding: 5px 30px;
     color: var(--Branco);
     border-radius: 50px;
     border: 2px solid var(--Branco);
 
 }
+
+/*card*/
+.card {
+    width: 380;
+    height: 650;
+    background-color: #0c131f;
+    margin-bottom: 25px;
+    border: 2px solid var(--Branco);
+    text-align: center;
+   border-radius: 25px;
+
+}
+
+.card img {
+    border-radius: 25px 25px 0px 0px;
+}
+
+#card h2 {
+    font-size: 1.3rem;
+    margin: 15px 0px;
+    color: var(--Vermelho);
+}
+
+.card p {
+    color: var(--Preto);
+    text-align: left;
+    padding: 0px 15px 30px 15px;
+}
+
 
 
 /* Fim - Layout <<<<<<<<<<<<<<<<< */
@@ -45,7 +74,7 @@ body {
 
 /* Cabeçalho */
 header {
-    background-color: var(--Preto);
+    background-color: #0c131f;
     height: 55px;
 }
 
@@ -61,7 +90,7 @@ header {
 }
 
 label {
-    color: rgba(250, 250, 250, 0.85);
+    color: rgba(255, 255, 255, 0.85);
     font-size: 2rem;
     position: fixed;
     right: 15px;
@@ -70,7 +99,7 @@ label {
 
 nav ul {
     height: 100vh;
-    background-color: rgb(0, 0, 0);
+    background-color: #0c131f;
     position: fixed;
     top: 55px;
     right: -55%;
@@ -89,7 +118,7 @@ nav ul li {
     list-style: none;
     padding: 20px;
     text-align: right;
-    border: 1px solid var(--Branco);
+    border: 1px solid var(--Preto);
     text-align: left;
 }
 
@@ -132,7 +161,7 @@ main h2 {
 /* Destaque */
 #destaque {
     padding: 10px 20px;
-    background: url(img/backgroud.jpg);
+    background: url(img/backgroudd.png);
     background-size: cover;
     background-position: center;
 
@@ -214,7 +243,7 @@ main h2 {
 
 #movie {
     padding: 10px 20px;
-    background: url(img/backgroud.jpg);
+    background: url(img/backgroudd.png);
     background-size: cover;
     background-position: left;
 
@@ -260,6 +289,21 @@ main h2 {
 #movie img {
     display: none;
 }
+
+/*Cards*/
+#spiders {
+    background: var(--Branco);
+    pad: 50px 0px 25px 0px;
+
+}
+
+#spiders .container {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+}
+
+
 
 /* Fim - Smartphone Portrait <<<<<<<<<<<<<<<< */
 
@@ -424,7 +468,7 @@ main h2 {
     }
 
     nav ul li a:hover {
-        color: var(--Azul);
+        color: var(--Vermelho);
     }
 
     #sobre iframe {
@@ -434,7 +478,20 @@ main h2 {
     #movie img {
     display: none;
 }
+
+#spiders .container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
+
+.card{
+    margin-right: 25px;
+}
+
+}
+
+
 
 /* Tablet Landscape <<<<<<<<<<<<<<<<<< */
 
@@ -480,7 +537,7 @@ main h2 {
     }
 
     nav ul li a:hover {
-        color: var(--Azul);
+        color: var(--Vermelho);
     }
 
     /* Principal */
@@ -583,7 +640,7 @@ main h2 {
 
     #movie {
         padding: 10px 20px;
-        background: url(img/backgroud.jpg);
+        background: url(img/backgroudd.png);
         background-size: cover;
         background-position: left;
         background-attachment: fixed;
@@ -592,6 +649,10 @@ main h2 {
     }
 
 }
+
+
+
+
 
 /* Notebook/Pc <<<<<<<<<<<<<<<<<< */
 
