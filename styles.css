@@ -40,33 +40,59 @@ body {
 
 /*card*/
 .card {
-    width: 380;
-    height: 650;
+    width: 290px;
+    height: 700px;
     background-color: #0c131f;
     margin-bottom: 25px;
-    border: 2px solid var(--Branco);
+    border: 2px solid var(--Vermelho);
     text-align: center;
-   border-radius: 25px;
+    border-radius: 30px;
+
+}
+
+/*topo do site*/
+#topo {
+    position: fixed;
+    right: 15px;
+    bottom: 10px;
+}
+
+/*Scroll suave*/
+
+html {
+scroll-behavior: smooth;
 
 }
 
 .card img {
-    border-radius: 25px 25px 0px 0px;
+    border-radius: 30px;
+    padding-top: 15px;
 }
 
-#card h2 {
-    font-size: 1.3rem;
-    margin: 15px 0px;
+.card h2 {
     color: var(--Vermelho);
+    font-size: 1.3rem;
 }
 
 .card p {
-    color: var(--Preto);
-    text-align: left;
+    color: var(--Branco);
+    text-align: center;
     padding: 0px 15px 30px 15px;
+    padding-top: 10px;
 }
 
-
+.btn2 {
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 400;
+    background-color: var(--Vermelho);
+    padding: 5px 15px;
+    color: var(--Branco);
+    border-radius: 50px;
+    border: 2px solid var(--Branco);
+    
+    
+}
 
 /* Fim - Layout <<<<<<<<<<<<<<<<< */
 
@@ -160,7 +186,7 @@ main h2 {
 
 /* Destaque */
 #destaque {
-    padding: 10px 20px;
+    padding: 30px 20px;
     background: url(img/backgroudd.png);
     background-size: cover;
     background-position: center;
@@ -176,8 +202,8 @@ main h2 {
 }
 
 #hero img {
-    width: 200px;
-    height: 250px;
+    width: 180px;
+    height: 230px;
     
     
 }
@@ -214,6 +240,7 @@ main h2 {
     display: flex;
     align-items: center;
     flex-direction: column;
+    
 
 }
 
@@ -242,7 +269,7 @@ main h2 {
 }
 
 #movie {
-    padding: 10px 20px;
+    padding: 30px 20px;
     background: url(img/backgroudd.png);
     background-size: cover;
     background-position: left;
@@ -293,7 +320,7 @@ main h2 {
 /*Cards*/
 #spiders {
     background: var(--Branco);
-    pad: 50px 0px 25px 0px;
+    padding: 50px 0px 25px 0px;
 
 }
 
@@ -301,9 +328,12 @@ main h2 {
     flex-direction: column;
     align-items: center;
     padding-top: 30px;
+
 }
 
-
+#spiders img {
+    height: 400px;
+}
 
 /* Fim - Smartphone Portrait <<<<<<<<<<<<<<<< */
 
@@ -617,7 +647,7 @@ main h2 {
     #titulo .btn2 {
         margin: 40px 0 0 0;
         display: inline-block;
-        align-items: center;
+        float: left;
     }
 
     #qrcode img {
