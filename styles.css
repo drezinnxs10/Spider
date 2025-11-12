@@ -5,7 +5,7 @@
 :root {
     --Vermelho: #911600;
     --Preto: #000000;
-    --Azul: #010e86;
+    --Azul: #0c131f;
     --Branco: #ffffff;
     --VermelhoCabeçalho: #680606;
 }
@@ -291,7 +291,7 @@ main h2 {
     text-align: left;
 }
 
-#titulo #p {
+#titulo p {
     text-align: center;
 
 
@@ -334,6 +334,31 @@ main h2 {
 #spiders img {
     height: 400px;
 }
+
+#contato .container {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--Azul);
+    color: var(--Branco);
+    padding-top: 30px;
+    width: 100000000px;
+}
+
+#contato iframe {
+    display: none;
+}
+
+#contato .container {
+    padding-left: 20px;
+}
+
+#contato p {
+    padding-bottom: 20px;
+    font-size: 18px;
+}
+
+
+
 
 /* Fim - Smartphone Portrait <<<<<<<<<<<<<<<< */
 
@@ -646,13 +671,12 @@ main h2 {
 
     #titulo .btn2 {
         margin: 40px 0 0 0;
-        display: inline-block;
         float: left;
     }
 
     #qrcode img {
-        width: 380px;
-        height: 380px;
+        width: 350px;
+        height: 350px;
         padding: 20px;
         margin-left: 30px;
         padding-top: 50px;
@@ -677,6 +701,17 @@ main h2 {
         height: 60vh;
         height: 50vh;
     }
+
+    #contato .container {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--Azul);
+    color: var(--Branco);
+    padding-top: 30px;
+    width: 100000000px;
+}
+
+
 
 }
 
